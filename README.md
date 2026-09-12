@@ -9,3 +9,7 @@
 | `packages/config` | ESLint / TS / Tailwind 共享配置 |
 
 > 状态：待初始化。
+
+## 许可证
+
+本项目采用 **AGPL-3.0-or-later** 许可证，详见 [LICENSE](LICENSE)。
