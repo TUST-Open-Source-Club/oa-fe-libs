@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       typescript:
-        specifier: ^5.0.2
-        version: 5.0.2
+        specifier: ^5.9.3
+        version: 5.9.3
 
   core:
     devDependencies:
@@ -18,8 +18,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0(vitest@5.0.0)
       typescript:
-        specifier: ^5.0.2
-        version: 5.0.2
+        specifier: ^5.9.3
+        version: 5.9.3
       vitest:
         specifier: ^5.0.0
         version: 5.0.0(@vitest/coverage-v8@5.0.0)(jsdom@30.0.1)(vite@8.3.0)
@@ -28,28 +28,28 @@ importers:
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^6.0.8
-        version: 6.0.8(vite@8.3.0)(vue@3.5.42(typescript@5.0.2))
+        version: 6.0.8(vite@8.3.0)(vue@3.5.42(typescript@5.9.3))
       '@vitest/coverage-v8':
         specifier: ^5.0.0
         version: 5.0.0(vitest@5.0.0)
       '@vue/test-utils':
         specifier: ^2.5.0
-        version: 2.5.0(@vue/compiler-dom@3.5.42)(@vue/server-renderer@3.5.42)(vue@3.5.42(typescript@5.0.2))
+        version: 2.5.0(@vue/compiler-dom@3.5.42)(@vue/server-renderer@3.5.42)(vue@3.5.42(typescript@5.9.3))
       jsdom:
         specifier: ^30.0.1
         version: 30.0.1
       typescript:
-        specifier: ^5.0.2
-        version: 5.0.2
+        specifier: ^5.9.3
+        version: 5.9.3
       vitest:
         specifier: ^5.0.0
         version: 5.0.0(@vitest/coverage-v8@5.0.0)(jsdom@30.0.1)(vite@8.3.0)
       vue:
         specifier: ^3.5.42
-        version: 3.5.42(typescript@5.0.2)
+        version: 3.5.42(typescript@5.9.3)
       vue-tsc:
         specifier: ^3.3.11
-        version: 3.3.11(typescript@5.0.2)
+        version: 3.3.11(typescript@5.9.3)
 
 packages:
 
@@ -679,9 +679,9 @@ packages:
     resolution: {integrity: sha512-bLVMLPtstlZ4iMQHpFHTR7GAGj2jxi8Dg0s2h2MafAE4uSWF98FC/3MomU51iQAMf8/qDUbKWf5GxuvvVcXEhw==}
     engines: {node: '>=20'}
 
-  typescript@5.0.2:
-    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
-    engines: {node: '>=12.20'}
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+    engines: {node: '>=14.17'}
     hasBin: true
 
   undici@8.10.2:
@@ -955,11 +955,11 @@ snapshots:
 
   '@types/estree@1.0.9': {}
 
-  '@vitejs/plugin-vue@6.0.8(vite@8.3.0)(vue@3.5.42(typescript@5.0.2))':
+  '@vitejs/plugin-vue@6.0.8(vite@8.3.0)(vue@3.5.42(typescript@5.9.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
       vite: 8.3.0
-      vue: 3.5.42(typescript@5.0.2)
+      vue: 3.5.42(typescript@5.9.3)
 
   '@vitest/coverage-v8@5.0.0(vitest@5.0.0)':
     dependencies:
@@ -1066,11 +1066,11 @@ snapshots:
 
   '@vue/shared@3.5.42': {}
 
-  '@vue/test-utils@2.5.0(@vue/compiler-dom@3.5.42)(@vue/server-renderer@3.5.42)(vue@3.5.42(typescript@5.0.2))':
+  '@vue/test-utils@2.5.0(@vue/compiler-dom@3.5.42)(@vue/server-renderer@3.5.42)(vue@3.5.42(typescript@5.9.3))':
     dependencies:
       '@vue/compiler-dom': 3.5.42
       js-beautify: 2.0.3
-      vue: 3.5.42(typescript@5.0.2)
+      vue: 3.5.42(typescript@5.9.3)
       vue-component-type-helpers: 3.3.11
     optionalDependencies:
       '@vue/server-renderer': 3.5.42
@@ -1378,7 +1378,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  typescript@5.0.2: {}
+  typescript@5.9.3: {}
 
   undici@8.10.2: {}
 
@@ -1418,13 +1418,13 @@ snapshots:
 
   vue-component-type-helpers@3.3.11: {}
 
-  vue-tsc@3.3.11(typescript@5.0.2):
+  vue-tsc@3.3.11(typescript@5.9.3):
     dependencies:
       '@volar/typescript': 2.4.28
       '@vue/language-core': 3.3.11
-      typescript: 5.0.2
+      typescript: 5.9.3
 
-  vue@3.5.42(typescript@5.0.2):
+  vue@3.5.42(typescript@5.9.3):
     dependencies:
       '@vue/compiler-dom': 3.5.42
       '@vue/compiler-sfc': 3.5.42
@@ -1432,7 +1432,7 @@ snapshots:
       '@vue/server-renderer': 3.5.42
       '@vue/shared': 3.5.42
     optionalDependencies:
-      typescript: 5.0.2
+      typescript: 5.9.3
 
   w3c-xmlserializer@5.0.0:
     dependencies:
